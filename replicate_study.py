@@ -18,17 +18,17 @@ from eulerian_magnification.io import save_video, load_video_float
 
 PAPER_REPLICATION_VALUES = [
     # name, amplification_factor, cutoff, lower_hertz, upper_hertz, framerate
-    ('baby', 10, 16, 0.4, 3, 30),
-    ('baby', 10, 16, 0.4, 0.8, 30),
-    ('baby2', 150, 600, 2.33, 2.67, 30),
-    ('camera', 120, 20, 45, 100, 300),
-    ('face', 100, 1000, 0.83, 1, 30),
-    # ('face2', 20, 80, 0.83, 1, 30),  # motion
-    # ('face2', 120, 960, 0.83, 1, 30),  # pulse
-    ('guitar', 50, 40, 72, 92, 600),  # low E
-    ('shadow', 5, 48, 0.5, 10, 30),
-    ('subway', 60, 90, 3.6, 6.2, 30),
-    ('wrist', 10, 80, 0.4, 3, 30),
+    #('baby', 10, 16, 0.4, 3, 30),
+    #('baby', 10, 16, 0.4, 0.8, 30),
+    #('baby2', 150, 600, 2.33, 2.67, 30),
+    #('camera', 120, 20, 45, 100, 300),
+    #('face', 100, 1000, 0.83, 1, 30),
+    ('face2', 20, 80, 0.83, 1, 30),  # motion
+    ('face2', 120, 960, 0.83, 1, 30),  # pulse
+    #('guitar', 50, 40, 72, 92, 600),  # low E
+    #('shadow', 5, 48, 0.5, 10, 30),
+    #('subway', 60, 90, 3.6, 6.2, 30),
+    #('wrist', 10, 80, 0.4, 3, 30),
 ]
 SOURCE_VIDEOS_DIR = 'eulerian_source_videos'
 
@@ -81,4 +81,5 @@ def replicate_study():
 
 
 if __name__ == '__main__':
-    replicate_study()
+	print("here")
+	replicate_study()

@@ -5,14 +5,11 @@ Amplify tiny movements in video.
 Based on the amazing research done at MIT:
 http://people.csail.mit.edu/mrub/vidmag/
 
-## Installation
-  - Install OpenCV
-  - `pip install eulerian-magnification`
-  
-  or
-  
-    docker build -t eulerian -t
-    docker run -it eulerian /bin/bash
+
+## USE this command
+  - docker build -t="video" .
+  - docker run -it video /bin/bash
+
 
 ## Requirements
   - Python 3.5, untested on Python 2.7.
